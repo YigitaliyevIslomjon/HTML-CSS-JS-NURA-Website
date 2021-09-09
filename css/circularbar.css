@@ -1,0 +1,50 @@
+.content2{
+    padding:190px 123px 180px 123px;
+}
+
+.circular{
+    display: flex;
+    flex-wrap:wrap;
+    gap:80px;
+    justify-content: center;
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    position: relative;
+    top:-137px;
+    left:0px;
+    color: rgba(122, 122, 122, 1);
+    font-size:16px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+canvas{
+    
+    width:198px;
+    height: 198px;
+}
+
+
+.chart-container p{
+    color: rgba(122, 122, 122, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top:-30px;
+}
+.chart-container h3{
+    position: relative;
+    top:-196px;
+    font-size: 32px;
+    font-weight: 600;
+    color:#7A7A7A;
+
+
+}

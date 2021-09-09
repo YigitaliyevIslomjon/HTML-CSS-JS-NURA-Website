@@ -1,0 +1,103 @@
+.container{
+  display: grid;
+  grid-template-columns: 1.5fr 1.1fr;
+  
+}
+.headerleft{
+  padding:60px 100px 0px 60px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700;900&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  bor
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:400;
+  text-decoration: none;
+}
+
+.headerleft-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows:75px 75px 75px 75px;
+  column-gap:40px;
+  row-gap:20px;
+}
+
+.headerleft-2 .card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerleft-2 .card:hover{
+  transform: scale(1);
+  background-color: darkgray;
+  transition: .4s;
+}
+.headerleft-1-1 a{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+.headerleft-1-1 a img{
+  margin-right: 46px;
+}
+.headerleft-1{
+  margin-bottom:25px;
+}
+.headerleft-1 p{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.headerright{
+  background-color: #1E59A4;
+  padding:60px 55px 0px 100px;
+  color:white;
+}
+
+.headerright-1 p{
+  margin-bottom: 73px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.headerright-2 img{
+  margin-bottom: 10px;
+}
+.headerright-3 p{
+  font-size: 12px;
+  font-weight: 400;
+  line-height:18px
+}
+.headerright-4-1{
+  
+  background-color:#1E59A4;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+ 
+}
+.headerright-4-1 img{
+  margin-left:10px;
+}
+.headerright-4-1 p{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color:white;
+  
+}
+.headerright-4{
+  display:grid;
+  justify-content:start;
+  grid-template-columns:200px;
+  grid-template-rows:40px;
+  margin-top:50px;
+  margin-bottom:60px;
+}
+.headerright-4 button{
+  border:1px solid white;
+}
